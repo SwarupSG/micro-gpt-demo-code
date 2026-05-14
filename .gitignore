@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
