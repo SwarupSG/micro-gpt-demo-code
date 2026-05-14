@@ -14,6 +14,7 @@ By the end of any of these files you will have built a tiny but real GPT that le
 | [`microgpt.py`](microgpt.py) | ~1,800 | **Long-form Jupytext demo.** Same algorithm split into `# %%` cells for cell-by-cell IDE execution, with extensive prose explaining every concept (autograd, attention, training loop, inference). For self-paced study. |
 | [`microgpt_demo.py`](microgpt_demo.py) | ~1,100 | **Slim Jupytext demo.** Same code, prose trimmed for live classroom projection — no markdown cell exceeds one screen height. The instructor narrates the depth; this file carries the *what*. |
 | [`input.txt`](input.txt) | 32,033 lines | Dataset — baby names from Karpathy's [`makemore`](https://github.com/karpathy/makemore). |
+| [`microgpt_anatomy.excalidraw`](microgpt_anatomy.excalidraw) | — | **Visual map** of `microgpt_original.py`: 7 modules in a vertical pipeline, with inputs, outputs, and the 20 real names the script produces with `seed=42`. Open in [excalidraw.com](https://excalidraw.com/) or the VS Code Excalidraw plugin. |
 
 All three Python files run the same algorithm end to end (data → tokenize → autograd → forward pass → training loop → inference) and produce the same generated names on the same seed.
 
